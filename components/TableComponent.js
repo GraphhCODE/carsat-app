@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
+import { Button } from "@/components/Button";
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/Table";
 
 export default function Home() {
   const [data, setData] = useState([
