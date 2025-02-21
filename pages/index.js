@@ -1,7 +1,7 @@
 import TableComponent from "../components/TableComponent";
 import { useState } from "react";
-import { Button } from "@/components/Button";
-import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/Table";
+import { Button } from "@/components/Button.js";
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/Table.js";
 
 export default function Home() {
   return (
